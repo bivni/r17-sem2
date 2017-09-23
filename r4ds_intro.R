@@ -49,7 +49,7 @@ example_ds <- structure(list(name = c("MisterA", "MisterB", "MisterC", "MisterD"
                                                              178.057625871369, 178.939316027414)), .Names = c("name", "height"
                                                              ), class = c("tbl_df", "tbl", "data.frame"), row.names = c(NA, 
                                                                                                                         -5L))
-
+# old graphics lib
 barplot(height = example_ds$height,names.arg = example_ds$name)
 
 ## cat & paste
