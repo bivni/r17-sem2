@@ -1,5 +1,0 @@
-install.packages("readxl")
-library(readxl)
-help(package="readxl")
-wksheet=read_excel("sales.xlsx",sheet = "sales")
-str(wksheet)
